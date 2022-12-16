@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/Style-web.css">
+
+    </head>
+    <body>
+        <header>
+           <img id="logo-head" src="img/icon.jpeg">
+           <div id="nav">
+            <a class="nav-link" href="#">Home</a>
+           <a class="nav-link" href="#Contact">Contact us</a>
+            <a class="nav-link" href="#Local">Infos</a>
+            <a class="nav-link" href="#About">About us</a>
+            <a class="nav-link" href="login.html">Connexion</a>
+           
+           </div> 
+        </header>
+
+        <main>
+            <div class="homebox">
+                <div id="homemsg">Welcome To Our Restaurant ! </div> 
+            </br>  
+                <a id="bookbutton" href="#Reservation-form">Book A Table</a> 
+            </div>
+
+
+<!-- registration in the restaurant-->
+            <div id="Reservation-form" >
+                <div class="Reservation-header">
+                    <h1 class="title">Reservation</h1>
+                    <p id="description">Register in our Restaurant</p>
+                </div>
+                <form id="survey-form">
+                <label id="name-label" for="name">Last name</label><br>
+                <input id="name" class="input-field" name="name" type="text" placeholder="Enter your last name" required><br>
+
+                <label id="prenom-label" for="prenom">First name</label><br>
+                <input id="prenom" class="input-field" name="name" type="text" placeholder="Enter your first name" required><br>
+
+                <label id="email-label" for="email">Email</label><br>
+                <input id="email" class="input-field" name="name" type="email" placeholder="Enter your email" required><br>
+
+                <label id="phone-label" for="phone">Phone number</label><br>
+                <input id="phone" class="input-field" name="name" type="tel" placeholder="0612345678"  required><br>
+
+                <label id="number-label" for="number">Age (optional)</label><br>
+                <input id="number" class="input-field" name="name type="number" min="10" max="100" placeholder="Age"><br>
+
+                <label id="password-label" for="password">Password</label><br>
+                <input id="password" class="input-field" name="name" type="password" placeholder="Password" required><br>
+
+                <label id="password-label" for="password">Confirm Password</label><br>
+                <input id="confirm-password" class="input-field" name="name" type="password" placeholder="Password" required><br>
+                
+                
+                
+            
+                <input id="submit" type="submit" value="Register in" onclick="confirmPwd()">
+                <p id="login" >Already have an account ? <a class="login" href="login.html">Sign in</a> and book your table</p>
+            
+                </form>
+            </div>
+
+            <div id="Reservation-form">
+                <div class="Reservation-header">
+                    <h1 class="title">Contact us</h1>
+                    <p id="description">What can we help you with ?</p>
+                </div>
+                <form id="survey-form">
+                    <label id="name-label" for="name">Last name</label><br>
+                    <input id="name" class="input-field" name="name" type="text" placeholder="Enter your last name" required><br>
+                    <label id="prenom-label" for="prenom">First name</label><br>
+                    <input id="prenom" class="input-field" name="name" type="text" placeholder="Enter your first name" required><br>
+                    <label id="email-label" for="email">Email</label><br>
+                    <input id="email" class="input-field" name="name" type="email" placeholder="Enter your email" required><br>
+                    <label id="email-label" for="email">Message</label><br>
+                    <textarea id="texta"class="input-field" placeholder="Write your message ..." required ></textarea>
+                </form>   
+
+            </div>
+
+            <div id="Local" class="Localbox">
+                <h1 class="title">Infos</h2>
+                <div id="infobloc">
+                    <h3 id="abouttitles">Opening time :</h3>
+                    <p >Monday - Friday <br> 09:00 - 18:00</p>
+                    <p>Saturday and Sunday <br>12:00 - 00:00</p>
+                </div>
+                <div id="infobloc1">
+                    <h3 id="abouttitles">Location :</h3>
+                    <p >78, Av. Allal alfassi, 10000, Rabat</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.886489288432!2d-6.8672307!3d33.9804179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee9ee437a0cfbaea!2sInstitut%20national%20des%20postes%20et%20t%C3%A9l%C3%A9communications!5e0!3m2!1sfr!2sma!4v1671229260665!5m2!1sfr!2sma" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            <div class="Aboutbox" id="About">
+                <h1 class="title">ABOUT US</h2>
+                    <p id="abouttext" >Book your table easily and in a short time in our restaurant using our website. Register now and enjoy the experience.</p>
+                   
+                 
+                <ul> <h3 id="abouttitles">Social media :</h3>
+                    <li><a class="aboutlinks" href=""> FACEBOOK </a></li>
+                    <li><a class="aboutlinks" href=""> INSTAGRAM </a></li>
+                    <li><a class="aboutlinks" href=""> TWITTER </a></li>
+                </ul>
+    
+            </div> 
+
+    
+        </main>
+        <script src="js/register.js"></script>
+
+    </body>
+</html>
