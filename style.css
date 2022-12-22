@@ -1,0 +1,138 @@
+﻿.a{
+	width: 300px;
+	height: 100px;
+	/*margin-top: 0% ;*/
+	border-radius: 55px 55px 10px 10px;
+	background-color: rgb(150, 122, 32);
+	margin-left: 534px;
+	/*position: absolute; /* postulat de départ */
+  /*top: 28.4%; left: 40.8%; /* à 50%/50% du parent référent */
+}
+
+.c{
+	width:298px;
+	height:10px;
+	background-color: green;
+    margin-left: 534px;
+	
+}
+.d{
+	width:298px;
+	height:10px;
+	background-color: yellow;
+    margin-left: 534px;
+	
+}
+#b{
+	width:300px;
+	height:50px;
+	border-radius: 10px;
+	margin:152px auto;
+	position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+	background-color:rgb(150, 122, 32);
+	
+	
+}
+#1 {
+	text-decoration: none;
+    color: white ;
+    border:yellow solid 4px;
+    padding: 5px;
+}
+.e{
+	width:298px;
+	height:10px;
+	background-color: brown;
+    margin-left: 534px;
+	
+
+}
+.f{
+	width:298px;
+	height:10px;
+	background-color: red;
+    margin-left: 534px;
+	
+}
+.g{
+	width:298px;
+	height:10px;
+	background-color: purple;
+    margin-left: 534px;
+	
+}
+#l{
+	margin-top: 4%;
+	margin-left: 5%;
+}
+.s1{
+	position: absolute;
+	top: 360px; left: 0;
+}
+.s2{
+	position: absolute;
+	top: 350px; left: 0;
+}
+.s3{
+	position: absolute;
+	top: 340px; left: 0;
+}
+.s4{
+	position: absolute;
+	top: 330px; left: 0;
+}
+.s5{
+	position: absolute;
+	top: 320px; left: 0;
+}
+.s6{
+	position: absolute;
+	top: 310px; left: 0;
+}
+.s7{
+	position: absolute;
+	top: 300px; left: 0;
+}
+.s8{
+	position: absolute;
+	top: 290px; left: 0;
+}
+.s9{
+	position: absolute;
+	top: 280px; left: 0;
+}
+.p1{
+	position: absolute;
+	top: 450px; left: 0;
+}
+.p2{
+	position: absolute;
+	top: 440px; left: 0;
+}
+.p3{
+	position: absolute;
+	top: 430px; left: 0;
+}
+.p4{
+	position: absolute;
+	top: 420px; left: 0;
+}
+.p5{
+	position: absolute;
+	top: 410px; left: 0;
+}
+.p6{
+	position: absolute;
+	top: 400px; left: 0;
+}
+.p7{
+	position: absolute;
+	top: 390px; left: 0;
+}
+.p8{
+	position: absolute;
+	top: 380px; left: 0;
+}
+
