@@ -1,12 +1,9 @@
 ﻿.a{
 	width: 300px;
 	height: 100px;
-	/*margin-top: 0% ;*/
 	border-radius: 55px 55px 10px 10px;
 	background-color: rgb(150, 122, 32);
 	margin-left: 534px;
-	/*position: absolute; /* postulat de départ */
-  /*top: 28.4%; left: 40.8%; /* à 50%/50% du parent référent */
 }
 
 .c{
@@ -14,6 +11,7 @@
 	height:10px;
 	background-color: green;
     margin-left: 534px;
+	border-radius: 4px;
 	
 }
 .d{
@@ -21,6 +19,7 @@
 	height:10px;
 	background-color: yellow;
     margin-left: 534px;
+	border-radius: 4px;
 	
 }
 #b{
@@ -39,9 +38,17 @@
     border:yellow solid 4px;
     padding: 5px;
 }
+#aj{
+	font-size: 28px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: absolute;
+	left: 100px;
+	top: 230px;
+}
 .e{
 	width:298px;
 	height:10px;
+	border-radius: 4px;
 	background-color: brown;
     margin-left: 534px;
 	
@@ -50,6 +57,7 @@
 .f{
 	width:298px;
 	height:10px;
+	border-radius: 4px;
 	background-color: red;
     margin-left: 534px;
 	
@@ -57,10 +65,66 @@
 .g{
 	width:298px;
 	height:10px;
+	border-radius: 4px;
 	background-color: purple;
     margin-left: 534px;
 	
 }
+#a{
+	
+	font-size: 14px;
+	padding: 12px 16px 12px 90px;
+	
+	border-radius:10px ;
+    
+	
+}
+
+#a:hover {
+    background-color: green;
+    color: white;
+}
+#bt{
+	padding: 12px 16px 12px 80px;
+	border-radius:10px;
+}
+
+#bt:hover {
+    background-color: yellow;
+    color: white;
+}
+#c{
+	padding: 12px 16px 12px 44px;
+	border-radius:10px;
+}
+
+#c:hover {
+    background-color: brown;
+    color: white;
+}
+#d{
+	padding: 12px 16px 12px 80px;
+	border-radius:10px;
+}
+
+#d:hover {
+    background-color: #f44336;
+    color: white;
+}
+#e{
+	padding: 12px 16px 12px 85px;
+	border-radius:10px;
+}
+
+#e:hover {
+    background-color: purple;
+    color: white;
+}
+#f{
+	padding: 12px 16px 12px 44px;
+	border-radius:10px;
+}
+
 #l{
 	margin-top: 4%;
 	margin-left: 5%;
@@ -101,6 +165,18 @@
 	position: absolute;
 	top: 280px; left: 0;
 }
+.s10{
+	position: absolute;
+	top: 270px; left: 0;
+}
+.s11{
+	position: absolute;
+	top: 260px; left: 0;
+}
+.s12{
+	position: absolute;
+	top: 250px; left: 0;
+}
 .p1{
 	position: absolute;
 	top: 450px; left: 0;
@@ -132,5 +208,17 @@
 .p8{
 	position: absolute;
 	top: 380px; left: 0;
+}
+.p9{
+	position: absolute;
+	top: 370px; left: 0;
+}
+.p10{
+	position: absolute;
+	top: 360px; left: 0;
+}
+.p11{
+	position: absolute;
+	top: 350px; left: 0;
 }
 
