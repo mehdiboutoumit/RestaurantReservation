@@ -261,7 +261,7 @@
   <!-- About us --> 
             <div class="Aboutbox" id="About">
                 <h1 class="title">ABOUT US</h2>
-                    <p id="abouttext" >Book your table easily and in a short time in our restaurant using our website. Register now and enjoy the experience.</p>
+                    <p id="abouttext" >Book your table easily and in a short time in our restaurant using our website. Reserve now and enjoy the experience.</p>
                    
                  
                 <ul> <h3 id="abouttitles">Social media :</h3>
