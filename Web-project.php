@@ -271,6 +271,12 @@
                 </ul>
     
             </div> 
+            <div class="Aboutbox" id="About">
+                <h1 class="title">build your burger</h2>
+          
+                    <input id="submit" type="button" onclick=window.location.href='http://127.0.0.1:5500/burger/index.html' value="START"> </button>
+    
+            </div> 
 
     
         </main>
