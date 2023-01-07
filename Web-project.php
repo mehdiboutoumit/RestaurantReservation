@@ -33,7 +33,7 @@
                 <a id="bookbutton" href="#Reservation-form">Book A Table</a> 
             </div>
 
-<!-- registration in the restaurant-->
+<!-- reservation in the restaurant-->
   <div id="Reservation-form" >
                 <div class="Reservation-header">
                     <h1 class="title">Reservation</h1>
@@ -271,6 +271,7 @@
                 </ul>
     
             </div> 
+  <!-- Burger builder -->  
             <div class="Aboutbox" id="About">
                 <h1 class="title">build your burger</h2>
           
@@ -280,7 +281,7 @@
 
     
         </main>
-        <script src="js/register.js"></script>
+        
 
     </body>
 </html>
