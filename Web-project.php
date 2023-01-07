@@ -14,7 +14,7 @@
     </head>
     <body>
         <header>
-           <img id="logo-head" src="img/icon.jpeg">
+           <img id="logo-head" src="img/icon.jpeg" style="border-radius: 50%; opacity: 75%">
            <div id="nav">
              <a class="nav-link" href="#">Home</a>
             <a class="nav-link" href="#Menu">Menu</a>
